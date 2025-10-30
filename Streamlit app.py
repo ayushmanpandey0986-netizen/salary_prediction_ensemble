@@ -61,4 +61,5 @@ if st.button('Predict Salary'):
     
     predicted_salary = rf_model.predict(final_input_data)
     
-    st.success(f"Predicted Salary: ${predicted_salary[0]:,.2f}")
+    st.success(f"Predicted Salary: Rs.{predicted_salary[0]:,.2f}")
+
