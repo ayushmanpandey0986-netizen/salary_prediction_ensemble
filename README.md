@@ -9,7 +9,7 @@ The model uses *Ensemble Learning algorithms* like Random Forest.
 - Data Preprocessing & Exploratory Data Analysis (EDA)
 - Implemented *Random Forest* and other Ensemble models
 - Interactive *Streamlit Web App* for user-friendly predictions
-- Future scope: Add more datasets, integrate deep learning models, and deploy to cloud (Heroku/Render)
+- Future scope: Add more datasets, integrate deep learning models, and deploy to cloud (Render)
 
 ---
 
@@ -22,10 +22,10 @@ The model uses *Ensemble Learning algorithms* like Random Forest.
 ---
 📈 Model Performance
 
-Random Forest Accuracy: XX%
+Random Forest Accuracy: Mean Absolute Error(MAE) of 9419 indicating high prediction accuracy
 
 
-(Replace XX% with your results)
+
 
 
 ---
@@ -34,7 +34,7 @@ Random Forest Accuracy: XX%
 
 1. Add more job market datasets for better generalization.
 
-2. Deploy app to Heroku / Render / AWS.
+2. Deploy app to Render.
 
 3. Add interactive visualizations for salary insights.
 
