@@ -22,11 +22,7 @@ The model uses *Ensemble Learning algorithms* like Random Forest.
 ---
 📈 Model Performance
 
-Random Forest Accuracy: Mean Absolute Error(MAE) of 9419 indicating high prediction accuracy
-
-
-
-
+Random Forest Accuracy: Achieved a Mean Absolute Error (MAE) of 9419, indicating high prediction accuracy, using a dataset of 375 employee records.
 
 ---
 
