@@ -28,7 +28,7 @@ user_input["Age"] = st.number_input("Age:", min_value=18, max_value=65, value=25
 user_input["Years of Experience"] = st.number_input("Years of Experience:", min_value=0, max_value=50, value=1)
 user_input["Gender"] = st.selectbox("Gender:", ["Male", "Female", "Other"])
 user_input["Education Level"] = st.selectbox("Education Level:", ["Bachelor's", "Master's", "PhD"])
-user_input["Job Title"] = st.selectbox("Job Title:", ["Software Engineer", "Data Scientist", "HR"])
+user_input["Job Title"] = st.selectbox("Job Title:", ["Software Engineer", "Data Scientist"])
 
 # ---- Preprocess inputs dynamically ----
 
@@ -62,4 +62,5 @@ if st.button('Predict Salary'):
     predicted_salary = rf_model.predict(final_input_data)
     
     st.success(f"Predicted Salary: Rs.{predicted_salary[0]:,.2f}")
+
 
